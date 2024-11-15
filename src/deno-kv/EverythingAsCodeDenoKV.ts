@@ -1,7 +1,7 @@
-import { DenoKVAsCode } from "./EaCDenoKVAsCode.ts";
+import { EaCDenoKVAsCode } from "./EaCDenoKVAsCode.ts";
 
 export type EverythingAsCodeDenoKV = {
-  DenoKVs?: Record<string, DenoKVAsCode>;
+  DenoKVs?: Record<string, EaCDenoKVAsCode>;
 };
 
 export function isEverythingAsCodeDenoKV(
